@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://developers.bitwiseinvestments.com/
+docs: https://developers.bitwiseinvestments.com/
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - header
+  oauth2_flows: []
+  notes: >-
+    The Bitwise API is documented via a public Postman collection. Authentication is performed with
+    an API key presented in the HTTP Authorization request header. API keys are not self-service —
+    they are issued on request by contacting api@bitwiseinvestments.com. No OpenAPI/Swagger definition
+    is published, so this profile is captured from the developer documentation rather than derived
+    from a spec.
+schemes:
+- name: ApiKeyAuth
+  type: apiKey
+  in: header
+  parameter_name: Authorization
+  description: API key issued by Bitwise, presented in the Authorization request header.
+  sources:
+  - https://developers.bitwiseinvestments.com/
+key_provisioning:
+  self_service: false
+  contact: api@bitwiseinvestments.com
