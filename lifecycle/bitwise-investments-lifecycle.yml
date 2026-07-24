@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.bitwiseinvestments.com/
+status_page: https://status.bitwiseinvestments.com/
+versioning:
+  scheme: unknown
+  notes: >-
+    No public versioning or deprecation policy is documented on the Bitwise developer portal
+    (a public Postman collection). Only a live status page was found. No OpenAPI spec is published,
+    so no deprecated operations could be derived.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+deprecated_operations: []

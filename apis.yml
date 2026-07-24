@@ -1,27 +1,102 @@
 aid: bitwise-investments
 name: Bitwise Investments
-description: 'Bitwise Investments is a company surfaced as a portfolio company of craft-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Bitwise Asset Management is one of the world''s largest crypto asset managers, founded
+  in 2017 and managing roughly $9 billion in client assets across more than 70 investment products
+  — including crypto index funds, ETFs (such as the Bitwise 10 Crypto Index ETF, BITW, and the Bitwise
+  Bitcoin ETF, BITB), separately managed accounts, private funds, hedge fund strategies, and staking.
+  Bitwise serves thousands of financial advisors, RIAs, family offices, and institutional investors,
+  bridging crypto and traditional finance. The Bitwise API (developers.bitwiseinvestments.com) exposes
+  Bitwise index, ETF, and fund data — crypto asset prices, index values, and methodologies — to partners;
+  access uses an Authorization header with API keys issued on request (api@bitwiseinvestments.com).'
 url: https://raw.githubusercontent.com/api-evangelist/bitwise-investments/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - craft-ventures
-x-tier: stub
+x-tier: enriched
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.datocms-assets.com/62087/1674679915-insights.png?auto=format&fit=max&w=1200
 tags:
 - Company
 - Crypto
-apis: []
+- Asset Management
+- ETF
+- Index Funds
+- Market Data
+- Financial Services
+- Investment Management
+apis:
+- name: Bitwise API
+  description: 'Bitwise index, ETF, and fund data API — crypto asset prices, index values, and index
+    methodologies. Authentication uses an Authorization header; API keys are issued on request via
+    api@bitwiseinvestments.com. Documentation is published as a public Postman collection.'
+  humanURL: https://developers.bitwiseinvestments.com/
+  baseURL: https://api.bitwiseinvestments.com
+  tags:
+  - Crypto
+  - Market Data
+  - Index
+  - ETF
+  properties:
+  - type: Documentation
+    url: https://developers.bitwiseinvestments.com/
+  - type: APIReference
+    url: https://developers.bitwiseinvestments.com/
+  - type: Authentication
+    url: authentication/bitwise-investments-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bitwise-investments-domain-security.yml
 - type: Website
   url: https://bitwiseinvestments.com
+- type: DeveloperPortal
+  url: https://developers.bitwiseinvestments.com/
+- type: Documentation
+  url: https://developers.bitwiseinvestments.com/
+- type: APIReference
+  url: https://developers.bitwiseinvestments.com/
+- type: Postman
+  url: https://developers.bitwiseinvestments.com/
+- type: Blog
+  url: https://bitwiseinvestments.com/crypto-market-insights
+- type: GitHubOrganization
+  url: https://github.com/bitwise-invest
+- type: SignUp
+  url: https://experts.bitwiseinvestments.com/sign-up
+- type: Login
+  url: https://app.bitwiseinvestments.com/investor-portal
+- type: TermsOfService
+  url: https://bitwiseinvestments.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://bitwiseinvestments.com/privacy-policy
+- type: StatusPage
+  url: https://status.bitwiseinvestments.com/
+- type: Authentication
+  url: authentication/bitwise-investments-authentication.yml
+- type: Lifecycle
+  url: lifecycle/bitwise-investments-lifecycle.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
