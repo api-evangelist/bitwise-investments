@@ -35,6 +35,15 @@ tags:
 - Company
 - Crypto
 - Asset Management
+- ETFs
+- Index Funds
+- Market Data
+- Financial-Services
+- Investment Management
+tags_raw:
+- Company
+- Crypto
+- Asset Management
 - ETF
 - Index Funds
 - Market Data
@@ -48,6 +57,11 @@ apis:
   humanURL: https://developers.bitwiseinvestments.com/
   baseURL: https://api.bitwiseinvestments.com
   tags:
+  - Crypto
+  - Market Data
+  - Index
+  - ETFs
+  tags_raw:
   - Crypto
   - Market Data
   - Index
