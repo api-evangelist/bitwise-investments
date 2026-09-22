@@ -43,6 +43,9 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://www.datocms-assets.com/62087/1674679915-insights.png?auto=format&fit=max&w=1200
+x-docs-platform: postman
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-20
 tags:
 - Company
 - Crypto
