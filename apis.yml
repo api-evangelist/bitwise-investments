@@ -48,7 +48,7 @@ x-docs-platform-confidence: high
 x-docs-platform-checked: 2026-09-20
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Asset Management
 - ETFs
 - Index Funds
@@ -73,7 +73,7 @@ apis:
   humanURL: https://developers.bitwiseinvestments.com/
   baseURL: https://api.bitwiseinvestments.com
   tags:
-  - Crypto
+  - Cryptocurrency
   - Market Data
   - Index
   - ETFs
