@@ -64,6 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bitwise Investments is a company surfaced as a portfolio company of craft-ventures and added to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment pipeline.
+Bitwise Asset Management is one of the world's largest crypto asset managers, founded in 2017 and managing roughly $9 billion in client assets across more than 70 investment products — including crypto index funds, ETFs (such as the Bitwise 10 Crypto Index ETF, BITW, and the Bitwise Bitcoin ETF, BITB), separately managed accounts, private funds, hedge fund strategies, and staking. Bitwise serves thousands of financial advisors, RIAs, family offices, and institutional investors, bridging crypto and traditional finance. The Bitwise API (developers.bitwiseinvestments.com) exposes Bitwise index, ETF, and fund data — crypto asset prices, index values, and methodologies — to partners; access uses an Authorization header with API keys issued on request (api@bitwiseinvestments.com).
 
-Backed by: craft-ventures — https://bitwiseinvestments.com
+**Areas:** Company · Cryptocurrency · Asset Management · ETFs · Index Funds · Market Data · Financial Services · Investment Management
+
+## Bitwise Investments on APIs.io
+
+Everything profiled for Bitwise Investments is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bitwise-investments/](https://apis.io/providers/bitwise-investments/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Bitwise API](https://apis.io/apis/bitwise-investments/bitwise-api/) — Bitwise index, ETF, and fund data API — crypto asset prices, index values, and index methodologies. Authentication uses an Authorization header; API keys…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bitwise Investments Authentication](https://apis.io/security/bitwise-investments/bitwise-investments-authentication/)
+- [Bitwise Investments Domain Security](https://apis.io/security/bitwise-investments/bitwise-investments-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bitwiseinvestments.com)
+- [Documentation](https://developers.bitwiseinvestments.com/)
+- [API reference](https://developers.bitwiseinvestments.com/)
+- [Sign up](https://experts.bitwiseinvestments.com/sign-up)
+- [Blog](https://bitwiseinvestments.com/crypto-market-insights)
+- [Terms of service](https://bitwiseinvestments.com/terms-of-service)
+- [Privacy policy](https://bitwiseinvestments.com/privacy-policy)
+- [GitHub](https://github.com/bitwise-invest)
+- [Status](https://status.bitwiseinvestments.com/)
+
+## API Evangelist rating
+
+**Kin Score 24.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 34.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.5** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bitwise-investments/](https://apis.io/providers/bitwise-investments/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bitwise Investments: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bitwise-investments/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
